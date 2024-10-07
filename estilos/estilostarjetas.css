@@ -1,0 +1,60 @@
+/*titulo de la pagina*/
+header h1{
+    color: rgb(238, 238, 238);
+}
+
+body{
+    background: #ec0505;
+background: -webkit-linear-gradient(70deg, #ec0505 0%, #000000 100%);
+background: linear-gradient(70deg, #ec0505 0%, #000000 100%);/*aplica al color del fondo*/
+margin: 0;
+padding: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;/*espacio entre los articulos*/
+}
+
+section article{
+    transition: box-shadow;/* Aplica una transicion de 0.3 segundos*/
+    background: #845b90;/* Aplica una transicion de 0.3 segundos*/
+    background: -webkit-linear-gradient(100deg, #845b90 0%, #f00b0b 100%);/* Aplica una transicion de 0.3 segundos*/
+    background: linear-gradient(100deg, #845b90 0%, #f00b0b 100%);
+    margin: 16px 0;/* Se agrega margen vertical*/
+    border-radius: 20px;/*Redondea las esquinas del articulo*/
+    padding: 4px 0;/* Espacio*/
+    cursor: pointer;/*Cambia el estilo del cursor*/
+
+}
+section article :hover{
+    box-shadow: 1.5 ;
+}
+section article h2,section article p{
+    margin: 8px;
+}
+footer{
+    background: #2c1010;
+    background: -webkit-linear-gradient(70deg, #2c1010 0%, #000000 100%);
+    background: linear-gradient(70deg, #2c1010 0%, #000000 100%);
+    padding: 48px;
+    color: aqua;
+
+}
+footer section{
+    float: right;
+    margin: 0px;
+}
+footer a{
+    transition: color 0.3 ease;
+    color: antiquewhite;
+    text-decoration: none;
+    
+}
+/*cambio de color al poner el puntero encima*/
+footer a:hover{
+    color: #f00b0b;
+    padding: 1px;
+}
+

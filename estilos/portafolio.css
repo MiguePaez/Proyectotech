@@ -1,0 +1,200 @@
+/* Estilos Generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    line: height 1.5em;
+  }
+  
+  .container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  /* Estilos del Header */
+  header {
+    text-align: center;
+    padding: 50px 0;
+    background: #272121;
+  }
+  
+  header h1 {
+    font-size: 4em;
+    color: #00ffcc;
+  }
+  
+  header p {
+    font-size: 1.5em;
+    color: #a39696;
+  }
+  
+  /* Sección Acerca de mí */
+  #about {
+    padding: 30px 0;
+    text-align: center;
+  }
+  
+  #about h2 {
+    font-size: 3em;
+    color: #00ffcc;
+  }
+  
+  /* Sección Habilidades */
+  #skills {
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  #skills h2 {
+    font-size: 2em;
+    color: #00ffcc;
+  }
+  
+  .skills-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .skill {
+    text-align: center;
+    margin: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .skill img {
+    width: 80px;
+    height: 80px;
+    filter: drop-shadow(0 0 10px #00ffcc);
+  }
+  
+  .skill:hover {
+    transform: scale(1.5);
+  }
+  
+  /* Sección Proyectos */
+  
+  #projects {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  #projects h2 {
+    font-size: 3em;
+    color: #00ffcc;
+  }
+
+  /* Sección Mis Cursos */
+  #cursos h1 {
+    font-size: 2.5em;
+    padding: 50px 0;
+    text-align: center;
+    color: #00ffcc;
+  }
+   
+  #cursos h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #50b19d;
+
+  }
+  
+
+
+  /* Sección Contacto */
+  #contact {
+    font-size: 1.5em;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  #contact h2 {
+    font-size: 2em;
+    color: #00ffcc;
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #1b1b1b;
+    color: #fff;
+    border: 1px solid #00ffcc;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    background-color: #00ffcc;
+    color: #121212;
+    border: none;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #00cc99;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #1b1b1b;
+  }
+  
+  footer p, footer a {
+    color: #aaaaaa;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    color: #00ffcc;
+  }
+
+  /* Estilos Generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Orbitron', sans-serif;
+    background-image: url('https://i.pinimg.com/736x/ea/ac/cd/eaaccd5888d21e5c260266711e6f1f67.jpg'); /* Ruta de la imagen */
+    background-size: cover;  /* Para cubrir toda la pantalla */
+    background-position: center; /* Centrar la imagen */
+    background-attachment: fixed; /* Para que la imagen no se mueva al hacer scroll */
+    color: #a2bbbb;
+    line-height: 1.5;
+  }
+  
+  .container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  /* Estilos del Header */
+  header {
+    text-align: center;
+    padding: 50px 0;
+    background: rgba(2, 0, 31, 0.8); /* Fondo oscuro semitransparente para que el texto sea legible */
+  }
+  
+  header h1 {
+    font-size: 3em;
+    color: #00ffcc;
+  }
+  
+  header p {
+    font-size: 1.2em;
+    color: #aaaaaa;
+  }
+  
+  /* ... el resto de los estilos sigue igual */
+  

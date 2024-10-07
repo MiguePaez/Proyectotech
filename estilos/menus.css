@@ -1,0 +1,86 @@
+/*estilos para la barra de navegacion*/
+.navbar{
+   display: flex; /*-se utiliza el flex para distribuir el contenido de manera horizontal*/
+   justify-content: space-between; /*espacio entre los elementos a lo largo del eje principal*/
+   align-items: center; /* alinea los elementos verticalmente*/
+   /*background-color: rgb(0, 0, 0);*/
+   background: #000000;
+background: -webkit-linear-gradient(0deg, #000000 0%, #ac0000 100%);
+background: linear-gradient(0deg, #000000 0%, #ac0000 100%);
+
+   
+   padding: 15px; /*espacio entre los elementos*/
+   
+}
+ /*etiqueta Logo*/
+ .logo a{
+    color: #b6660a;; /*Color del texto que dice logo*/
+    text-decoration: none; /*Elimina el subrayado del enlace del logo*/
+    font-size: 40px; /*tamano de la fuente*/
+    font-family: 'Lobster', cursive;
+    
+    
+    
+     
+ }
+.nav-links a{
+    color: white; /*Color del texto*/
+    text-decoration:none; /*Eliminar el subrayado*/
+    padding: 8px 15px; /*Espacio entre cada*/
+    
+}
+
+.frase a{
+    color: #867c70;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+}
+.nav-links {
+list-style: none; /*Elimina los puntos de las listas*/
+display: flex; /*se utiliza para distribuir los elementos*/
+gap: 50px; /* espacio entre cada enlace*/
+font-size: 15px;
+}
+.dropdown {
+    position: relative; /*posiciona el contenedor del dropdown*/
+}
+.dropdown-content a{
+padding: 12px 16px; /*espacio interno al rededor de los enlaces*/
+text-decoration: none; /*eliminar el subrayado*/
+display: block; /* hace que los enlaces ocupen todo el ancho del contenido*/
+color: rgb(0, 0, 0);
+}
+
+.dropdown-content {
+    display: none;/*Oculta el contenido del dropdown por defecto*/
+    position: absolute; /*Posiciona el contenido del dropdown de forma absoluta respecto a su contenedor*/
+    background-color: rgba(160, 158, 39, 0.945); /*Aplica el color a el fondo del contenedor*/
+    ain-wigth 120px; /*Ancho minimo del contenido dropdown*/
+    box-shadow: 0px 8px 16px rgba(0,0,0, 0.2);
+
+
+}
+
+
+/*Muestra el contenido del Menu al pasar el cursor sobre el Menu*/
+.dropdown:hover .dropdown-content{
+    display: block; /*muestra el contenido cuando el cursor entra sobre el elemneto*/
+}
+/*Encargado del estilo en los enlaces de navegacion al pasar el cursor sobre ellos*/
+.nav-links li a:hover{
+    background-color: #b6660a;/*Encargado de darle el color a la parte donde llevamos nuestro puntero*/
+    border-radius: 4px;
+}
+
+
+.search-container button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #b6660a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
